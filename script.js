@@ -12,7 +12,7 @@ function compare()
     {
         solution.innerHTML="C'est plus petit !";
     }
-    else if (rep.value>nbAleatoires)
+    else if (rep.value<nbAleatoires)
     {
         solution.innerHTML="C'est plus grand !";
     }
