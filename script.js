@@ -6,7 +6,7 @@ function compare()
 {
     if (rep.value==nbAleatoires)
     {
-        solution.innerHTML="Bravo! Vous avez trouvez le nombre";
+        solution.innerHTML="Bravo! Vous avez trouvé le nombre";
     }
     else if (rep.value>nbAleatoires)
     {
