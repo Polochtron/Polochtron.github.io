@@ -6,12 +6,14 @@ h1
 }
 div.carre
 {
-    float: left;
+    float: none;
     margin-left: auto;
     margin-right: auto;
     width  : 200px;
     height : 200px;
     background : green;
+    border:3px solid black;
+    border-radius:8px;
 }
 p.centre
 {
