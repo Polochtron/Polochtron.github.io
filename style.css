@@ -8,15 +8,11 @@ div.rectangle
 {
     margin-left: auto;
     margin-right: auto;
-    width  : 200px;
-    height : 400px;
+    width  : 400px;
+    height : 200px;
     background : green;
     border-radius:8px;
-    margin: 5px;
-}
-p.centre
-{
+    padding-top: 20px;
     margin: auto;
     text-align: center;
-    vertical-align: middle
 }
