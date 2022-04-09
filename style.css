@@ -4,13 +4,12 @@ h1
     text-decoration: underline overline #FF3028;
     text-align: center;
 }
-div.carre
+div.rectangle
 {
-    float: none;
     margin-left: auto;
     margin-right: auto;
     width  : 200px;
-    height : 200px;
+    height : 400px;
     background : green;
     border-radius:8px;
     margin: 5px;

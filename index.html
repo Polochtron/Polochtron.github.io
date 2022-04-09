@@ -1,42 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Jeu du plus ou moins</title>
-</head>
-<body>
-    <h1>Voici mon jeu du plus ou moins</h1>
-    <div class="carre">
-        <p class="centre">
-            Test
-        </p>
-    </div>
-    <div class="carre">
-        <p class="centre">
-            Test
-        </p>
-    </div>
-    <div class="carre">
-        <p class="centre">
-            Test
-        </p>
-    </div>
-    <br>
-    <div class="carre">
-        <p class="centre">
-            Test
-        </p>
-    </div>
-    <div class="carre">
-        <p class="centre">
-            Test
-        </p>
-    </div>
-    <div class="carre">
-        <p class="centre">
-            Test
-        </p>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Jeu du plus ou moins</title>
+    </head>
+    <body>
+        <h1>Voici mon jeu du plus ou moins</h1>
+        <div class="rectangle">
+            <p class="centre">
+                Veuillez entrer un nombre entre 0 et 100 :
+            </p>
+            <br>
+            <input id="rep" type="number" value="0">
+            <br>
+            <button>Comparer</button>
+            <br>
+            <p id="solution"></p>
+        </div>
+    </body>
+    <script src="script.js"></script>
 </html>
